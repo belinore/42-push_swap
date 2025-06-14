@@ -49,7 +49,7 @@ I explored adapting classic sorting algorithms such as quicksort and mergesort p
 
 Stacks were implemented using **circular doubly linked lists** to allow straightforward implementation of stack rotation in both directions.
 
-I had initially considered using arrays for their performance advantages. However, since the project focuses on minimizing the number of operations rather than execution time, I chose a linked list approach to simplify implementation and practice implementing a more advanced linked list variation.
+I considered using arrays for their performance advantages. However, since the project focuses on minimizing the number of operations rather than execution time, I chose a linked list approach to simplify implementation and practice implementing a more advanced linked list.
 
 ## 🛠️ Compilation
 
