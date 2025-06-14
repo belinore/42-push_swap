@@ -43,7 +43,7 @@ This implementation is based on the [Turk algorithm](https://github.com/alx-sch/
 - Using double rotations (`rr`, `rrr`) to minimize operations
 - Pushing elements back to stack A in sorted order
 
-Prior to this, I explored adapting classic sorting algorithms such as quicksort and mergesort, but most were not efficient enough within the project's constraints. Radix sort would have been viable but did not guarantee sorting all tests below the minimum operations required for full marks.
+I explored adapting classic sorting algorithms such as quicksort and mergesort prior to this, but most were not efficient enough within the project's constraints. Radix sort would have been viable but did not guarantee sorting all tests below the minimum operations required for full marks.
 
 ## 🧱 Data Structure Design
 
