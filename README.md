@@ -2,8 +2,7 @@
 
 A 42 project focused on sorting a stack of integers using a limited set of operations. The goal is to implement an efficient algorithm that outputs the smallest possible sequence of valid operations.
 
-## ⚙️ Allowed Operations
-
+**Allowed Operations**
 - `sa` / `sb`: Swap the first two elements of stack A / B
 - `ss`: `sa` and `sb` at the same time
 - `pa` / `pb`: Push the top element from one stack to the other
@@ -44,11 +43,11 @@ This implementation is based on the [Turk algorithm](https://github.com/alx-sch/
 - Using double rotations (`rr`, `rrr`) to minimize operations
 - Pushing elements back to stack A in sorted order
 
-Prior to this I explored adapting classic sorting algorithms such as quicksort and mergesort, but most approaches were not efficient enough with the project's constraints. Radix sort would have been the best option, but it did not guarentee meeting minimal total instructions allowed for all test cases.
+Prior to this, I explored adapting classic sorting algorithms such as quicksort and mergesort, but most were not efficient enough within the project's constraints. Radix sort would have been viable but did not guarantee sorting all tests below the minimum operations required for full marks.
 
 ## 🧱 Data Structure Design
 
-Stacks were implemented using **circular doubly linked lists** to allow efficient rotation and reverse rotation operations in both directions. This structure made the stack movement logic more straightforward.
+Stacks were implemented using **circular doubly linked lists** to allow straightforward implementation of rotation operations.
 
 ## 🛠️ Compilation
 
