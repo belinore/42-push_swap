@@ -73,11 +73,5 @@ rra
 
 ## Notes
 
-> **Evaluation Criteria**
-> - Handles all edge cases and errors (duplicates, non-integers, etc.)
-> - Produces correct and efficient operation sequences
-> - Memory is properly managed (no leaks)
-> - Sorting strategy is both correct and optimized for low operation count
-
 > ⚠️ **Norminette Compliance**  
 > This project follows the [42 Norminette](https://github.com/42School/norminette) — a strict C coding style guide. It enforces rules like max 25 lines per function, separate declarations/assignments, and consistent formatting. Code is written for readability and structure over brevity.
