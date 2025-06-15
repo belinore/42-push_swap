@@ -11,7 +11,7 @@ A 42 project focused on sorting a stack of integers using a limited set of opera
 - `rra` / `rrb`: Reverse rotate stack A / B down by one
 - `rrr`: `rra` and `rrb` at the same time
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 - Understanding fundamentals of sorting algorithms and their time complexities (Big O notation)
 - Stack data structures using circular doubly linked lists
@@ -19,7 +19,7 @@ A 42 project focused on sorting a stack of integers using a limited set of opera
 - Implementing cost-based decision-making and movement optimization
 - Error handling in C
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 42-push_swap/
@@ -34,7 +34,7 @@ A 42 project focused on sorting a stack of integers using a limited set of opera
 └── README.md
 ```
 
-## 🧩 Sorting Strategy
+## Sorting Strategy
 
 This implementation is based on the [Turk algorithm](https://github.com/alx-sch/push_swap?tab=readme-ov-file), which focuses on cost-based decisions:
 
@@ -45,13 +45,13 @@ This implementation is based on the [Turk algorithm](https://github.com/alx-sch/
 
 I explored adapting classic sorting algorithms such as quicksort and mergesort prior to this, but most were not efficient enough within the project's constraints. Radix sort would have been viable but did not guarantee sorting all tests below the minimum operations required for full marks.
 
-## 🧱 Data Structure Design
+## Data Structure Design
 
 Stacks were implemented using **circular doubly linked lists** to allow straightforward implementation of stack rotation in both directions.
 
-I considered using arrays for their performance advantages. However, since the project focuses on minimizing the number of operations rather than execution time, I chose a linked list approach to simplify implementation and practice implementing a more advanced linked list.
+I considered using arrays for their performance advantages and since the maximum stack size is known at compile time. However, since the project focuses on minimizing the number of operations rather than execution time, I chose a linked list approach to simplify the operations and practise implementing a more advanced type of linked list.
 
-## 🛠️ Compilation
+## Compilation
 
 ```bash
 make            # Builds push_swap
@@ -59,7 +59,7 @@ make fclean     # Removes object files and push_swap
 make re         # Rebuilds everything
 ```
 
-## 🚀 Usage
+## Usage
 
 ```bash
 ./push_swap 3 2 1
@@ -71,9 +71,9 @@ sa
 rra
 ```
 
-## 📌 Notes
+## Notes
 
-> ✅ Evaluation Criteria
+> **Evaluation Criteria**
 > - Handles all edge cases and errors (duplicates, non-integers, etc.)
 > - Produces correct and efficient operation sequences
 > - Memory is properly managed (no leaks)
